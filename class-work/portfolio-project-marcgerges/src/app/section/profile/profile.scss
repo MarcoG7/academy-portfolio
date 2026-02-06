@@ -1,6 +1,5 @@
 $button-dark-color: rgb(53, 53, 53);
 
-/* SECTIONS */
 .section__profile {
   display: flex;
   justify-content: center;
@@ -9,30 +8,6 @@ $button-dark-color: rgb(53, 53, 53);
   height: 400px;
   align-self: center;
 }
-
-.section__img {
-  width: 400px;
-  height: 400px;
-
-  img {
-    height: 100%;
-    width: 100%;
-  }
-}
-
-section {
-  padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
-  box-sizing: border-box;
-  min-height: fit-content;
-}
-
-.section-container {
-  display: flex;
-}
-
-/* PROFILE SECTION */
 
 #profile {
   display: flex;
@@ -69,56 +44,5 @@ section {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  gap: 1rem;
-}
-
-/* ICONS */
-
-.icon {
-  cursor: pointer;
-  height: 2rem;
-}
-
-/* BUTTONS */
-
-.btn-container {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.btn {
-  font-weight: 600;
-  transition: all 300ms ease;
-  padding: 1rem;
-  width: 8rem;
-  border-radius: 2rem;
-}
-
-
-.btn-color-1 {
-  border: $button-dark-color 0.1rem solid;
-  background: $button-dark-color;
-  color: white;
-
-  &:hover {
-    cursor: pointer;
-    background: black;
-  }
-}
-
-.btn-color-2 {
-  border: $button-dark-color 0.1rem solid;
-  background: none;
-
-  &:hover {
-    cursor: pointer;
-    background: $button-dark-color;
-    color: white;
-    border: white 0.1rem solid;
-  }
-}
-
-.btn-container {
   gap: 1rem;
 }
